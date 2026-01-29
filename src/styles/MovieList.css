@@ -1,0 +1,44 @@
+.movie-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+  margin-bottom: 40px;
+}
+
+.loading {
+  text-align: center;
+  padding: 40px;
+  font-size: 18px;
+  color: #00d4ff;
+}
+
+.error {
+  text-align: center;
+  padding: 40px;
+  font-size: 18px;
+  color: #ff4444;
+  background-color: rgba(255, 68, 68, 0.1);
+  border-radius: 8px;
+  border: 2px solid #ff4444;
+}
+
+.no-movies {
+  text-align: center;
+  padding: 60px 20px;
+  font-size: 20px;
+  color: #aaa;
+}
+
+@media (max-width: 768px) {
+  .movie-list {
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .movie-list {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+}

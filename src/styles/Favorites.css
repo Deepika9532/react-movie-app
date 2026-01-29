@@ -1,0 +1,38 @@
+.favorites-page {
+  padding: 20px 0;
+}
+
+.favorites-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.favorites-header h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+  color: #ffffff;
+}
+
+.favorites-count {
+  font-size: 18px;
+  color: #00d4ff;
+}
+
+.empty-favorites {
+  text-align: center;
+  padding: 60px 20px;
+  background-color: #16213e;
+  border-radius: 12px;
+  border: 2px solid #00d4ff;
+}
+
+.empty-favorites p {
+  font-size: 18px;
+  margin: 10px 0;
+  color: #aaa;
+}
+
+.empty-favorites p:first-child {
+  color: #00d4ff;
+  font-weight: 600;
+}

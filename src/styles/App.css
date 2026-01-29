@@ -1,0 +1,11 @@
+﻿.app {
+  min-height: calc(100vh - 70px);
+  background-color: #0f1419;
+  color: #ffffff;
+}
+
+.app-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 20px;
+}
